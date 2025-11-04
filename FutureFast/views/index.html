@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Salomão — Educação Financeira</title>
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+
+   <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-salomao shadow">
+  <div class="container">
+    <a class="navbar-brand" href="#hero">
+      <img src="img/Adobe Express - file.png" alt="Logo Salomão" class="navbar-logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="mainNav">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-2">
+        <li class="nav-item"><a class="nav-link" href="/">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#artigos">Artigos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#impacto">Impacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+      </ul>
+
+      <div class="d-flex align-items-center gap-2">
+        <button class="btn btn-outline-light btn-sm">Cadastrar</button>
+        <a href="#login" class="btn btn-login btn-sm">LOGIN</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- HERO (100vh) -->
+  <!-- OBS: troque the imagem abaixo se necessário: default 'images/hero.png' -->
+  <header id="hero" class="hero-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <h1 class="hero-title">Educação financeira com propósito e impacto social</h1>
+        <p class="hero-sub">Transformamos educação financeira em oportunidade real — com cursos, bolsas e impacto social.</p>
+        <div class="d-flex gap-2 flex-wrap">
+          <a href="#cursos" class="btn btn-cta">Explorar cursos</a>
+          <a href="#artigos" class="btn btn-cta-outline">Ver artigos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  <!-- FEATURES (cards com background) -->
+  <section id="features" class="py-6">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Por que escolher a Salomão?</h2>
+        <p class="lead text-muted">Conteúdos práticos, impacto social e acesso para todos.</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-bg" style="background-image:url('img/article1.webp');">
+            <div class="feature-overlay p-4">
+              <h3>Impacto Real</h3>
+              <p class="small text-white-75">Projetos e bolsas que geram transformação concreta em comunidades.</p>
+              <p class="feature-more">+ Programas de mentoria e parcerias com instituições locais.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-bg" style="background-image:url('img/article2.webp');">
+            <div class="feature-overlay p-4">
+              <h3>Acesso para todos</h3>
+              <p class="small text-white-75">Cursos gratuitos e planos de bolsas para quem precisa.</p>
+              <p class="feature-more">+ Plataforma mobile-first e com suporte comunitário.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-bg" style="background-image:url('img/article3.webp');">
+            <div class="feature-overlay p-4">
+              <h3>Tecnologia consistente</h3>
+              <p class="small text-white-75">Plataforma estável, com boa experiência em desktop e mobile.</p>
+              <p class="feature-more">+ Ferramentas de progresso, certificados e integração com mentorias.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURSOS (cards extensos, 3 colunas responsivas) -->
+  <section id="cursos" class="py-6 bg-cursos">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title text-white">Nossos Cursos</h2>
+        <p class="lead text-white-70">Escolha o plano que combina com seu objetivo — gratuito, pago ou pro.</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-4">
+          <article class="course-card" style="background-image:url('img/v470_62.png');">
+            <div class="course-overlay p-4">
+              <h3 class="h5">Finanças Pessoais para Iniciantes</h3>
+              <p class="small text-white-75">Aprenda a montar orçamento, cortar gastos e criar reserva de emergência.</p>
+              <ul class="course-meta list-unstyled small text-white-75 mt-2">
+                <li>Duração: 8 aulas (4 semanas)</li>
+                <li>Nível: Iniciante</li>
+                <li>Instrutor: Rafael Santos</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="price">GRÁTIS</span>
+                <div class="d-flex gap-2">
+                  <a class="btn btn-outline-light btn-sm" href="#">Detalhes</a>
+                  <a class="btn btn-course" href="#">Adquirir</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-4">
+          <article class="course-card" style="background-image:url('img/v292_514.png');">
+            <div class="course-overlay p-4">
+              <h3 class="h5">Investimentos e Bolsa de Valores</h3>
+              <p class="small text-white-75">Conceitos de renda fixa, renda variável e estratégias iniciais de alocação.</p>
+              <ul class="course-meta list-unstyled small text-white-75 mt-2">
+                <li>Duração: 12 aulas (6 semanas)</li>
+                <li>Nível: Intermediário</li>
+                <li>Instrutor: Maria Oliveira</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="price">R$ 99,99</span>
+                <div class="d-flex gap-2">
+                  <a class="btn btn-outline-light btn-sm" href="#">Detalhes</a>
+                  <a class="btn btn-course" href="#">Adquirir</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-4">
+          <article class="course-card" style="background-image:url('img/v292_513.png');">
+            <div class="course-overlay p-4">
+              <h3 class="h5">Plano Pro — Mentoria & Projeto</h3>
+              <p class="small text-white-75">Aulas avançadas, mentoria individual e projeto final aplicado.</p>
+              <ul class="course-meta list-unstyled small text-white-75 mt-2">
+                <li>Duração: 20 aulas (12 semanas)</li>
+                <li>Nível: Avançado</li>
+                <li>Instrutor: Mauricio Mikio</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="price">R$ 149,99</span>
+                <div class="d-flex gap-2">
+                  <a class="btn btn-outline-light btn-sm" href="/cursos">Detalhes</a>
+                  <a class="btn btn-course" href="/cursos">Adquirir</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ARTIGOS (3 cards por linha em desktop) -->
+  <section id="artigos" class="py-6">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Artigos Recentes</h2>
+        <p class="lead text-muted">Textos curtos e práticos para aplicar hoje.</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <div class="col-sm-6 col-lg-4">
+          <article class="article-card">
+            <div class="article-image" style="background-image:url('img/v292_437.png');"></div>
+            <div class="p-4">
+              <h3 class="h6">Como organizar seu orçamento mensal</h3>
+              <p class="small text-muted">Um passo a passo simples para controlar entradas e saídas.</p>
+              <div class="mt-3 d-flex justify-content-between align-items-center">
+                <span class="article-date small text-muted">30 out 2025</span>
+                <a class="btn btn-article btn-sm" href="#">Ler mais</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <article class="article-card">
+            <div class="article-image" style="background-image:url('img/v292_436.png');"></div>
+            <div class="p-4">
+              <h3 class="h6">Investindo com segurança</h3>
+              <p class="small text-muted">Estratégias simples para reduzir risco e começar a investir.</p>
+              <div class="mt-3 d-flex justify-content-between align-items-center">
+                <span class="article-date small text-muted">28 out 2025</span>
+                <a class="btn btn-article btn-sm" href="#">Ler mais</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <article class="article-card">
+            <div class="article-image" style="background-image:url('img/v292_435.png');"></div>
+            <div class="p-4">
+              <h3 class="h6">Reserva de emergência: por onde começar</h3>
+              <p class="small text-muted">Como planejar e construir sua reserva financeira em 4 etapas.</p>
+              <div class="mt-3 d-flex justify-content-between align-items-center">
+                <span class="article-date small text-muted">20 set 2025</span>
+                <a class="btn btn-article btn-sm" href="#">Ler mais</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- IMPACTO SOCIAL (mais detalhes, imagem + texto) -->
+  <section id="impacto" class="py-6 bg-impacto text-white">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <h2 class="section-title text-white">Impacto Social</h2>
+          <p class="lead text-white-75">Cerca de 33% da população mundial possui noções básicas sobre economia. Através de nossos cursos e programas, já alcançamos milhares de pessoas com conteúdo prático, bolsas e mentorias.</p>
+
+          <ul class="list-unstyled text-white-75 mt-3">
+            <li>• <strong>5.200+</strong> alunos atendidos em 2024</li>
+            <li>• <strong>120</strong> bolsas concedidas</li>
+            <li>• Projetos em parceria com escolas e ONGs locais</li>
+          </ul>
+
+          <p class="text-white-75 mt-3 small">Depoimento: “O curso da Salomão me ajudou a sair das dívidas e começar a investir.” — A. Souza</p>
+        </div>
+
+        <div class="col-md-6">
+          <div class="impact-image" style="background-image:url('img/Demonstrativo-referente-se-os-respondentes-foram-educados-financeiramente.png');"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ (acordeão Bootstrap com 3+ perguntas) -->
+<section id="faq" class="py-6 bg-light">
+  <div class="container">
+    <div class="faq-box mx-auto" style="max-width: 600px;">
+      <div class="text-center mb-4">
+        <h2 class="section-title">FAQ</h2>
+        <p class="lead text-muted">Escolha uma categoria para encontrar respostas</p>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-toggle" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false">
+          Dúvidas <span class="arrow">▼</span>
+        </button>
+        <div id="faq1" class="collapse">
+          <div class="faq-content">Respostas sobre uso da plataforma, acesso aos cursos e navegação.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-toggle" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false">
+          Sugestões <span class="arrow">▼</span>
+        </button>
+        <div id="faq2" class="collapse">
+          <div class="faq-content">Envie ideias de melhorias, novos cursos ou funcionalidades.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-toggle" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false">
+          Problemas <span class="arrow">▼</span>
+        </button>
+        <div id="faq3" class="collapse">
+          <div class="faq-content">Soluções para erros técnicos, login ou acesso a conteúdo.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-toggle" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false">
+          Financeiro <span class="arrow">▼</span>
+        </button>
+        <div id="faq4" class="collapse">
+          <div class="faq-content">Informações sobre bolsas, planos gratuitos e descontos.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-toggle" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false">
+          Pagamentos <span class="arrow">▼</span>
+        </button>
+        <div id="faq5" class="collapse">
+          <div class="faq-content">Dúvidas sobre cobrança, reembolso e formas de pagamento.</div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <p class="text-muted fs-5">Tem alguma outra dúvida? <a href="#contato">Fale conosco</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- FOOTER com formulário simples para coletar e-mail (envio via JS) -->
+ <footer class="bg-footer text-white pt-5 pb-4">
+  <div class="container">
+    <div class="text-center mb-4">
+      <img src="img/Adobe Express - file.png" alt="Logo Salomão" style="height: 60px;">
+      <p class="mt-3 small text-white-75">Logue e salve. Seja o primeiro a receber as novidades.</p>
+      <form class="d-flex justify-content-center gap-2 mt-3" style="max-width: 400px; margin: 0 auto;">
+        <input type="email" class="form-control form-control-sm" placeholder="Email" required>
+        <button type="submit" class="btn btn-course btn-sm">Envie</button>
+      </form>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <h6 class="text-white">Redes sociais</h6>
+        <div class="d-flex justify-content-center gap-3 mt-2">
+          <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <h6>Suporte</h6>
+        <ul class="list-unstyled small text-white-75">
+          <li><a href="#faq" class="text-white-75">FAQs</a></li>
+          <li><a href="#login" class="text-white-75">Log in</a></li>
+          <li><a href="#cursos" class="text-white-75">Courses</a></li>
+          <li><a href="#contato" class="text-white-75">Contate-nos</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h6>Companhia</h6>
+        <ul class="list-unstyled small text-white-75">
+          <li><a href="#" class="text-white-75">Reviews</a></li>
+          <li><a href="#" class="text-white-75">Acessibilidade</a></li>
+          <li><a href="#" class="text-white-75">Termos de condição</a></li>
+          <li><a href="#" class="text-white-75">Política de reembolso</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="text-center mt-4 small text-white-50">© 2025 Salomão — Todos os direitos reservados</div>
+  </div>
+</footer>
+
+  <!-- Bootstrap 5 JS bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+
+const hero = document.getElementById("hero");
+  const images = [
+    "img/hero1.png",
+    "img/hero2.png",
+    "img/hero3.png"
+  ];
+
+  let index = 0;
+
+  function changeHeroBackground() {
+    hero.style.backgroundImage = `url('${images[index]}')`;
+    index = (index + 1) % images.length;
+  }
+
+  // Inicializa
+  changeHeroBackground();
+  setInterval(changeHeroBackground, 6000); // troca a cada 6 segundos
+
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute("href"));
+      if (target) {
+        window.scrollTo({
+          top: target.offsetTop - 80, // ajusta para compensar a navbar
+          behavior: "smooth"
+        });
+      }
+    });
+  });
+  </script>
+</body>
+</html>
